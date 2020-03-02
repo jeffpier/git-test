@@ -4,7 +4,8 @@
 
 #Begin infinite loop:
 
-i = 1
-while i == 1:
+i = 4
+
+for n in range(0, i):
   print('Hello world.')
-  i = 1
+  n += 1
